@@ -1,9 +1,9 @@
 board = [" "," "," "," "," "," "," "," "," "]
 
 def display_board
-  puts "   |   |   "
- puts "-----------"
- puts "   |   |   "
- puts "-----------"
- puts "   |   |   "
- end
+  puts row = ["   " "|" "   " "|" "   "]
+  puts separator = "-----------"
+  puts row
+  puts separator
+  puts row
+end
